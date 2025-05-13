@@ -1,6 +1,12 @@
 # pySubTTS
 Program for voice dubbing with TTS (native or online) video from SRT subtitles, lightweight without heavy dependencies, both for Windows and GNU/Linux (Debian, Ubuntu etc)
 
+Allows subtitles to be transformed into audio while respecting timestamps and then perform quick dubbing into another language. 
+
+You can also set various parameters including maximum or minimum speed so that you always have a good listening experience. 
+
+It will strictly respect the subtitle timestamps if you want it to.
+
 ### Dependencies
 FFMPEG installed in the system or portable. If portable, copy the executables:
 
