@@ -47,7 +47,7 @@ if [ "$INSTALL_DEPENDENCIES" = true ]; then
 
     # Install Python dependencies 
     zenity --info --width=400 --text="Sto installando le dipendenze Python..."
-    pip3 install pip install pyttsx3 PyQt5 srt chardet pydub edge-tts
+    pip3 install pyttsx3 PyQt5 srt chardet pydub edge-tts
 fi
 
 # Asks the user to install pySubTTS
