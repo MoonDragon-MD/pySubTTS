@@ -21,3 +21,5 @@ For both operating systems (on linux the installer takes care of it):
 If you want to run with python 3.6 (on windows) you have to comment out line 23 making it look like this
 
 ```# import edge_tts```
+
+Of course then you have to use only the native windows tts and not the online tts
