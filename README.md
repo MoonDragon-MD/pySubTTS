@@ -16,3 +16,8 @@ For both operating systems (on linux the installer takes care of it):
 ![alt text](https://github.com/MoonDragon-MD/pySubTTS/blob/main/img/eng.jpg?raw=true)
 
 ![alt text](https://github.com/MoonDragon-MD/pySubTTS/blob/main/img/ita.jpg?raw=true)
+
+### Note
+If you want to boot with python 3.6 (on windows) you have to comment out line 23 making it look like this
+
+```# import edge_tts```
