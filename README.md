@@ -7,6 +7,8 @@ You can also set various parameters including maximum or minimum speed so that y
 
 It will strictly respect the subtitle timestamps if you want it to.
 
+The offline version uses the native tts of the operating system you are using, on linux it uses the preinstalled "espeak" but since it sounds bad I recommend using the online version, while for windows it is fine and you can also install nicer voices from third party companies
+
 ### Dependencies
 FFMPEG installed in the system or portable. If portable, copy the executables:
 
