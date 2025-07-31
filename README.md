@@ -59,3 +59,10 @@ If you want to run with python 3.6 (on windows) you have to comment out line 23 
 ```# import edge_tts```
 
 Of course then you have to use only the native windows tts and not the online tts
+
+### EXTRA
+There are some srt files (I found this problem on some automatic srt files from YouTube) that have two tracks at the same time, which causes an error in my program.
+
+To fix this, you can use this script: [fix_srt_timestamps.py](https://github.com/MoonDragon-MD/pySubTTS/blob/main/EXTRA/fix_srt_timestamps.py)
+
+```python3 fix_srt_timestamps.py -i input.srt -o output.srt```
